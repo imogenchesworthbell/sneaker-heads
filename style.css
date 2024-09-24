@@ -27,3 +27,35 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+body{
+    width: 50%;
+    background-color: khaki;
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-size: cover;
+
+}
+#row1-section1 {
+    border: 5px outset magenta;
+    background-color: lightblue;
+  }
+
+#row2-section1 {
+    border: 5px outset blue;
+    background-color: lightpink;
+  }
+#jordans-1 {
+    height: 400px;
+     width: 600px;
+}
+#jordans-2 {
+    height: 400px;
+     width: 600px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px aqua;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
