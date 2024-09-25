@@ -27,35 +27,62 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
 body{
-    width: 50%;
+    width: 80%;
+    max-width: 1200px;
     background-color: khaki;
     background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
     background-size: cover;
+    font-family:serif
 
 }
-#row1-section1 {
-    border: 5px outset magenta;
-    background-color: lightblue;
-  }
+#j1, #j2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
 
-#row2-section1 {
+#j1-section1 {
     border: 5px outset blue;
-    background-color: lightpink;
-  }
-#jordans-1 {
-    height: 400px;
-     width: 600px;
+    background-color: lightblue;
 }
-#jordans-2 {
+
+#j2-section1 {
+    border: 5px outset magenta;
+    background-color: lightpink;
+}
+
+#j1-section1, #j2-section1 {
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px; 
+}
+
+#jordans-1, #jordans-2 {
     height: 400px;
      width: 600px;
 }
 
 h1 {
     text-align: center;
-    text-shadow: 2px 2px aqua;
+    color: white;
+    text-shadow: 2px 2px black;
     text-decoration: underline;
     text-underline-offset: 5px;
+    font-size: 3rem;
+    margin-bottom: 1em;
 }
 
+p {
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom: 2em;
+}
+
+a {
+    color: rgb(251, 64, 64);
+    font-weight: bold;
+}
